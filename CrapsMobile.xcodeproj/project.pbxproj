@@ -14,6 +14,7 @@
 		018B77641ECD5D76003E25AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018B77621ECD5D76003E25AF /* LaunchScreen.storyboard */; };
 		018B776F1ECD5D76003E25AF /* CrapsMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B776E1ECD5D76003E25AF /* CrapsMobileTests.swift */; };
 		018B777A1ECD5D77003E25AF /* CrapsMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B77791ECD5D77003E25AF /* CrapsMobileUITests.swift */; };
+		018FEBC71ECE9632006F72C3 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018FEBC61ECE9632006F72C3 /* GameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		018B77751ECD5D77003E25AF /* CrapsMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrapsMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B77791ECD5D77003E25AF /* CrapsMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrapsMobileUITests.swift; sourceTree = "<group>"; };
 		018B777B1ECD5D77003E25AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018FEBC61ECE9632006F72C3 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				018B77601ECD5D76003E25AF /* Assets.xcassets */,
 				018B77621ECD5D76003E25AF /* LaunchScreen.storyboard */,
 				018B77651ECD5D76003E25AF /* Info.plist */,
+				018FEBC61ECE9632006F72C3 /* GameController.swift */,
 			);
 			path = CrapsMobile;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				018B775C1ECD5D76003E25AF /* ViewController.swift in Sources */,
+				018FEBC71ECE9632006F72C3 /* GameController.swift in Sources */,
 				018B775A1ECD5D76003E25AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				018B77801ECD5D77003E25AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		018B77811ECD5D77003E25AF /* Build configuration list for PBXNativeTarget "CrapsMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				018B77831ECD5D77003E25AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		018B77841ECD5D77003E25AF /* Build configuration list for PBXNativeTarget "CrapsMobileUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				018B77861ECD5D77003E25AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
