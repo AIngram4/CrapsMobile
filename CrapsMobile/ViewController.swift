@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+    @IBOutlet weak var secondDieImage: UIImageView!
+    @IBOutlet weak var firstDieImage: UIImageView!
     @IBOutlet weak var rollButton: UIButton!
     @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var pointLabel: UILabel!
@@ -29,6 +30,7 @@ class ViewController: UIViewController {
 
     @IBAction func rollButtonPressed(_ sender: Any){
         gc.gamePlay()
+        gc.chooseImage()
         
     }
     
